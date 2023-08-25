@@ -1,0 +1,55 @@
+.play-btn,
+.skip-btn {
+  background: transparent;
+  border: none;
+  height: 60px;
+}
+.song-duration{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+}
+.song-name{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.shuffle{
+  text-align: center;
+  padding-bottom: 10%;
+
+  .shuffle-btn {
+    height: 50px;
+    border-radius: 50%;
+  }
+.shuffle-btn.active {
+  background-color: #aca49f;
+  color: antiquewhite;
+  background: transparent;
+  border: none;
+  height: 50px;
+}}
+
+
+
+@media screen and (max-width: 768px) {
+  .play-btn {
+    width: 60px;
+    height: 60px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .song-duration{
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .song-name{
+    color: aliceblue;
+    font-size: 1rem;
+  }
+}
